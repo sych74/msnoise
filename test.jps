@@ -1,0 +1,8 @@
+{
+    "jpsType": "update",
+    "name": "Magento Cluster Template",
+    "success": "Main success test2",
+    "onInstall": [{
+        "cmd": "echo 1"
+    }]
+}
