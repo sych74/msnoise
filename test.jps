@@ -1,7 +1,8 @@
 {
     "jpsType": "update",
     "name": "Magento Cluster Template",
-    "success": "Main success test2",
+    "success": "<table style='font-size:14px'><tr><td>PHP MyAdmin:</td><td><a href='${env.protocol}://docker${nodes.sqldb[0].id}-${env.domain}' target='_blank'>${env.protocol}://docker${nodes.sqldb[0].id}-${env.domain}</a></td></tr><tr><td>Login:</td><td><b>${globals.DB_USER}</b></td></tr><tr><td>Password:</td><td><b>${globals.DB_PASS}</b></td></tr></table>",
+",
     "onInstall": [{
         "cmd": "echo 1"
     }]
